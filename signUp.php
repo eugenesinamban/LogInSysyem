@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>入力してください</h1>
-    <form action="signUpHandling.php">
+    <form action="signUpHandling.php" method="post">
         <input type="text" name="username" placeholder="ユーザー名"><br>
         <input type="password" name="password" placeholder="パスワード"><br>
         <input type="text" name="name" placeholder="お名前"><br>

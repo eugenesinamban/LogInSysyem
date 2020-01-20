@@ -22,7 +22,7 @@ if ("POST" === $_SERVER['REQUEST_METHOD']) {
     $placeholder = [
         // 
         'username' => $username,
-        'password' => $pass,
+        'password' => $password,
         'name' => $name
     ];
 
@@ -33,7 +33,7 @@ if ("POST" === $_SERVER['REQUEST_METHOD']) {
 
     // DBに書き込む
 
-    header('location:index.php');
+    header('location:login.php');
     
     // 成功したらindexページに飛ばす
 }
